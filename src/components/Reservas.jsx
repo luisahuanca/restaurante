@@ -52,11 +52,11 @@ export const Reservas = () => {
 
 
     return (
-      <div className="container">
-      <div className="row">
+      <div className="container-fluid mx-auto border border-info rounded m-4 p-4" style={{width: '500px'}}>
+      <div className="">
         
-        <div className="col-6">
-          <h1> Reservas </h1>
+        <div className="m-4">
+          <h3> Formulario de contacto </h3>
           <form onSubmit={submit}>
           <label className="form-label"> Nombre</label>
 
@@ -64,12 +64,28 @@ export const Reservas = () => {
           onChange={(e)=>handleFormNombre(e.target.value)}
           value= {nombre} />
           
-          <label className='form-label'> Nota </label>
+          <label className='form-label'> Email </label>
 
           <input type= 'text' className="form-control"
           onChange={(e)=>handleFormEmail(e.target.value)}
           value={email}/>
-          <button className="btn btn-dark"> </button>
+
+          <label className='form-label'> Número </label>
+
+          <input type= 'text' className="form-control"
+          onChange={(e)=>handleFormNumero(e.target.value)}
+          value={numero}/>
+
+          <label className='form-label'> Comentario </label>
+
+          <input type= 'text' className="form-control"
+          onChange={(e)=>handleFormComentario(e.target.value)}
+          value={comentario}/>
+
+          <div></div>
+          <hr />
+
+          <button className="btn btn-dark"> Guardar </button>
           </form>
 
         </div>
@@ -77,4 +93,3 @@ export const Reservas = () => {
     </div>
     );
 };
-

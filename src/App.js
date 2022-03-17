@@ -1,6 +1,6 @@
 import {BrowserRouter as Router , Route, Switch } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
-import { Nosotros } from './components/Nosotros';
+import { Home } from './components/Home';
 import { Menu } from './components/Menu';
 import { Reservas } from './components/Reservas';
 
@@ -11,8 +11,8 @@ function App() {
         <Navbar />
         <div className='container'>
         <Switch>
-        <Route path='/nosotros'>
-            <Nosotros />
+        <Route path='/home'>
+            <Home />
         </Route>
         
         <Route path='/menu'>
@@ -29,4 +29,5 @@ function App() {
   };
 
 export default App;
+
 
