@@ -3,12 +3,18 @@ import {Link} from 'react-router-dom';
 
 export const Navbar = () => {
     return (
+       
+        <div className="ontainer-fluid">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid m-4">
-          <Link className="navbar-brand" to="/">
-          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046799.png" width={100} height={100} className="d-inline-block align-top" alt="" />
         
-          </Link>
+           <div className="navbar-brand">
+
+           </div>
+          
+          <div className="navbar-brand" to="/">
+          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046799.png" width={80} height={80} className="d-inline-block align-top" alt="" />
+        
+          </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
@@ -31,8 +37,9 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-        </div>
+        
       </nav>
+      </div>
+      
     )
 }
-

@@ -1,8 +1,7 @@
 .container_nosotros { 
  
     margin: 50px 50px 50px 50px;
-  
-    
+
 }
 
 .img1 {
@@ -15,4 +14,31 @@
 .portada {
     padding: 100px 100px 100px 100px;
     margin: 200px;
+}
+
+.img_menu {
+    width:20%;
+    height: 20%;
+}
+
+.container_menu {
+    display: inline-flexbox;
+    gap: 1fr 1fr 1fr;
+
+}
+
+.card1 {
+    width: 30%;
+    height: 50%;
+}
+.img_tamaño {
+    height: 50%;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }

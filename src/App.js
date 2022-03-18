@@ -3,6 +3,8 @@ import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
 import { Menu } from './components/Menu';
 import { Reservas } from './components/Reservas';
+import { Footer } from './components/Footer';
+
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
         </Route>
         </Switch>
         </div>
+        <Footer />
       </Router>
     );
   };
