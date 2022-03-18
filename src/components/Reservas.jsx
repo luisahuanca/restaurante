@@ -52,7 +52,7 @@ export const Reservas = () => {
 
 
     return (
-      <div className="container-fluid mx-auto border border-info rounded m-4 p-4" style={{width: '500px'}}>
+      <div className="container-fluid mx-auto border  rounded m-4 p-4 bg-secondary text-light" style={{width: '500px'}}>
       <div className="">
         
         <div className="m-4">
@@ -93,3 +93,5 @@ export const Reservas = () => {
     </div>
     );
 };
+
+

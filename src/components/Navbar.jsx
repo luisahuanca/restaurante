@@ -1,15 +1,19 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import logo from '../img/logo.png'
+
 
 export const Navbar = () => {
     return (
-       
-        <div className="ontainer-fluid">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        
-           <div className="navbar-brand">
+        <div>
+            
+        <div className="navbar-brand mx-auto" style={{width: '200px'}} >
+        <img src={logo} className=" img-fluid " style={{height:'200px'}, {width:'200px'} } alt="" />
 
-           </div>
+        </div>
+       
+    
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-4">
           
           <div className="navbar-brand" to="/">
           <img src="https://cdn-icons-png.flaticon.com/512/1046/1046799.png" width={80} height={80} className="d-inline-block align-top" alt="" />
@@ -39,6 +43,7 @@ export const Navbar = () => {
           </div>
         
       </nav>
+     
       </div>
       
     )

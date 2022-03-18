@@ -14,7 +14,7 @@ export const Footer = () => {
           </p>
           
         </div>
-        <div className="card-footer text-muted p-4">
+        <div className="card-footer text-light bg-dark p-4">
           Lima, Peru - 2022
         </div>
       </div>

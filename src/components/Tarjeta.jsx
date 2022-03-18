@@ -10,3 +10,4 @@ export const Tarjeta = ({src,title1}) => {
         </div>
     )
 };
+
